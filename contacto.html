@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="es" lang="es">
+    <head>        
+        <title>Formulario de contacto</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" type="text/css" href="estiloscopia.css" />
+    </head>        
+    <body>
+        <div class="container">  
+          <form id="contact" action='https://formsubmit.co/bestoptioncomp@gmail.com' method='POST'>
+            <h3>Comunícate con nosotros</h3>
+            <fieldset>
+                <input type='text' name='name' placeholder='Nombre' tabindex="1" required autofocus >
+            </fieldset>
+            <fieldset>
+              <input type='hidden' name='_next' value='https://bestoptioncompany.com/tks.html'>
+              <input type='hidden' name='_subject' value='Mensaje desde BEST OPTION COMPANY'>
+              <input type='email' name='email' placeholder='Su correo' tabindex="2" required>
+            </fieldset>
+            <fieldset>
+                  <textarea name="mensaje" placeholder="Escribe tu mensaje...." tabindex="3" required></textarea>
+                  <div id="status"></div>
+            </fieldset>
+              <button type='submit'>Enviar</button>
+          </form>
+        </div>
+    </body>
+</html>
